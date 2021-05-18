@@ -1,0 +1,96 @@
+.container {
+    background-color: black;
+    width: 1250px;
+    height: 600px;
+}   
+
+.cabezera {
+    background-color: black;
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.obj-derecha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;  
+}
+
+.uno img {
+    width: 110px;
+    height: 60px;
+}
+.dos {padding-top: 20px;
+color: white;
+margin-right: 15px;}
+.tres {padding-top: 20px;
+color: white;
+margin-right: 15px;}
+.cuatro {padding-top: 20px;
+color: white;
+margin-right: 15px;}
+.cinco {padding-top: 20px;
+color: white;
+margin-right: 15px;}
+.seis {padding-top: 20px;
+color: white;
+margin-right: 15px;}
+.siete {padding-top: -200px;
+padding-left: 925px;
+margin-right: 15px;}
+
+.obj-izquierda {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-top: 15px;
+}
+
+.siete img {
+    width: 300px;
+    height: 40px;
+}
+
+.obj-izquierda {
+    display: flex;
+    flex-direction: row;
+}
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: 20px 150px 20px 150px;
+    height: 200px;
+    width: 200px;
+    grid-gap: 10px;
+    grid-row-gap: 20px;
+    padding-top: 80px;
+    margin-left: 525px;
+    position: relative;
+    justify-content: center;
+}
+
+.l1 {background-image: url(t1.jpg);}
+.l2 {background-color: white;}
+.l3 {background-color: green;}
+.l4 {background-color: red;}
+.l5 {background-color: white;}
+.l6 {background-color: green;}
+.l7 {background-color: red;}
+.l8 {background-color: white;}
+.l9 {background-color: green;}
+.l10 {background-color: red;}
+
+.t1 {
+    color: white;
+    background-color: black;
+}
+
+.t6 {
+    color: white;
+    background-color:black;
+}
